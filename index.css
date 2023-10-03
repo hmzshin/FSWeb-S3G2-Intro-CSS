@@ -1,0 +1,86 @@
+/* Menü elemanlarını ve footer(altbar)'ı arkaplanlarını(background) renklendirmek için verilen renk kodlarını kullanın:
+  - [ ] Gezinizi Planlayın: `#FF764E`
+  - [ ] Bilgi Edinin: `#5ED3EB`
+  - [ ] Karşılaştırın: `#FFCD69`
+- [ ] Yazı renkleri ve fontlar:
+  - [ ] Peri Bacaları Tanıtımı fontunun adı Chelsea Market'tir ve şu linkten ulaşılabilir [google fonts](https://fonts.google.com/specimen/Chelsea+Market)
+  - [ ] Diğer tüm fontlar Roboto Mono'dur ve şuradan ulaşılabilir [google fonts](https://fonts.google.com/specimen/Roboto+Mono)
+- [ ] Ana metnin arka plan rengi: `#DDB9A3`
+- [ ] Footer'ın arka plan rengi: `#F9E7DC` */
+
+* {
+  border: 1px solid green;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  height: 10vh;
+}
+
+header nav {
+  display: block;
+  align-items: center;
+  height: 10vh;
+  width: 90vw;
+  float: left;
+  margin: 0 5vw;
+}
+
+header nav a {
+  display: inline-block;
+  height: 90%;
+  width: 20vw;
+  margin: 0.3rem 2rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+  text-decoration: none;
+  font-size: 12;
+  vertical-align: top;
+}
+
+.giris {
+  display: block;
+  height: 45vh;
+  position: relative;
+}
+.giris-foto {
+  position: absolute;
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+}
+.giris-baslik {
+  position: absolute;
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  margin: 0 0 0 40%;
+}
+.giris img {
+  height: 200px;
+  width: 200px;
+  object-fit: fill;
+  border-radius: 100px;
+  margin: 5%;
+}
+h1 {
+  text-align: center;
+  margin: 15px 0px;
+}
+p {
+  text-align: center;
+  margin-top: 15px;
+}
+.kalan {
+  display: block;
+  width: 100vw;
+  height: 50vh;
+}
+.aciklama {
+  height: 20vh;
+}
+.aciklama-ilk-paragraf {
+  margin-top: 0px;
+}
