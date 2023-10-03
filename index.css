@@ -1,11 +1,5 @@
-/* Menü elemanlarını ve footer(altbar)'ı arkaplanlarını(background) renklendirmek için verilen renk kodlarını kullanın:
-
-
-
-- [ ] Footer'ın arka plan rengi: `#F9E7DC` */
-
 * {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
